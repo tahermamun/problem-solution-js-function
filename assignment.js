@@ -16,7 +16,7 @@ function kilometerToMeter(km) {
 //Function 2: Budget Calculator
 
 function budgetCalculator(watch, phone, leptop) {
-    if (watch<0||phone<0||leptop<0||typeof watch!='number'||typeof phone!='number'||typeof leptop!='number') {
+    if (watch < 0 || phone < 0 || leptop < 0 || typeof watch != 'number' || typeof phone != 'number' || typeof leptop != 'number') {
         return 'Enter a valid Product value'; //Error Message
     }
     else {
